@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+       <center> <h1>CALCULATOR</h1></center>
+        
+        <div id="border" >
+            <div id="input" class=""></div>
+            <div id="num" class="num">
+                <div id="firstrow" class="cont3">
+                    <div id="789" class="cont2">
+                        <div id="7" class="cont1" onclick="display('7')">7</div>
+                        <div id="8" class="cont1" onclick="display('8')">8</div>
+                        <div id="9" class="cont1" onclick="display('9')">9</div>
+                    </div>
+                    <div id="div" class="cont" onclick="display('/')">/</div>
+                </div>
+
+                <div id="secondrow" class="cont3">
+                    <div id="456" class="cont2">
+                        <div id="4" class="cont1" onclick="display('4')">4</div>
+                        <div id="5" class="cont1" onclick="display('5')">5</div>
+                        <div id="6" class="cont1" onclick="display('6')">6</div>
+                    </div>
+                    <div id="mul" class="cont" onclick="display('*')">*</div>
+                </div>
+
+                <div id="thirdrow" class="cont3">
+                    <div id="123" class="cont2">
+                        <div id="1" class="cont1" onclick="display('1')">1</div>
+                        <div id="2" class="cont1" onclick="display('2')">2</div>
+                        <div id="3" class="cont1" onclick="display('3')">3</div>
+                    </div>
+                    <div id="sub" class="cont" onclick="display('-')">-</div>
+                </div>
+
+                <div id="fourthrow " class="cont3">
+                    <div id="456" class="cont2">
+                        <div id="backspace" class="cont1"onclick="back()" >&larr;</div>
+                        <div id="0" class="cont1" onclick="display('0')">0</div>
+                        <div id="dot" class="cont1" onclick="display('.')">.</div>
+                    </div>
+                    <div id="add" class="cont" onclick="display('+')">+</div>
+                </div>
+
+                <div id="fithrow" class="cont5">
+                    <div id="clear" class="cont4" onclick="clearScreen()">CE</div>
+                    <div id="equal" class="cont4" onclick="calculate()">=</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
