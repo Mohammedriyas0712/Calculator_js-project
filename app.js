@@ -20,6 +20,13 @@ function calculate() {
 
 function back()
 {
-    a=a.slice(0,-1);
+    if(a.length!=1){
+        a=a.slice(0,-1);
     document.getElementById("input").innerHTML=a;
+    }
+    else{
+        a="";
+        document.getElementById("input").innerHTML=a;
+    }
+    
 }
