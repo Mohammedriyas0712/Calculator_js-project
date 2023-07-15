@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     background-color: aliceblue;
     box-shadow: 0px 0px 10px 1px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 body{
     background-image: url(./images/pexels-photo-2680270.webp);
@@ -40,6 +40,8 @@ h1{
     background-color: aliceblue;
     box-shadow: 0px 0px 10px 1px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 #num{
     height: 500px;
