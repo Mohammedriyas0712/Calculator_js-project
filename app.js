@@ -18,12 +18,8 @@ function calculate() {
     a=q;
 }
 
-// function back(){
-//     var len=document.getElementById('input');
-//     var inner=len.innerHTML;
-//     len="";
-//     inner=inner.split("");
-//     inner=inner.splice(inner.length-1,1)
-//     inner=inner.join("");
-//     len.value=inner;
-//     }
+function back()
+{
+    a=a.slice(0,-1);
+    document.getElementById("input").innerHTML=a;
+}
